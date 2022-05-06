@@ -1,0 +1,112 @@
+/* ============ PERFIL ============= */
+.about__body {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    gap: 3rem;
+}
+
+.perfil__imagen img {
+    aspect-ratio: 1;
+}
+
+.btn-about {
+    display: block;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.resume p {
+    margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 991px) {
+    .about__body {
+        grid-template-columns: 1fr;
+    }
+
+    .about__body div:nth-child(1) {
+        order: 2;
+    }
+}
+
+/* ========== EDUCACIÓN =========== */
+.educacion__body {
+    padding: 2rem;
+    margin-bottom: 3rem;
+
+    color: var(--color-white);
+    background: var(--color-bg-gradiente05);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+.educacion__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.educacion__imagen {
+    max-width: 20rem;
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.educacion__temas {
+    margin: 0 1.5rem;
+}
+
+.educacion__temas li {
+    list-style: disc;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .educacion__info {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width: 600px) {
+    .educacion__body {
+        padding: 1rem;
+    }
+}
+
+/* ============= HOBBY ============= */
+.hobby__container {
+    max-width: 40rem;
+}
+
+.hobby__item {
+    padding: 1rem 2rem;
+
+    border-radius: 2rem;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.hobby__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+.hobby__imagen {
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .hobby__item {
+        padding: 1rem;
+    }
+
+    .hobby__info {
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hobby__info {
+        grid-template-columns: 1fr;
+    }
+}

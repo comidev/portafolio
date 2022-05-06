@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CEO  -------------------------------------------------->
+        <title>Portafolio - comidev</title>
+        <meta
+            name="description"
+            content="Bienvenidos. Soy Omar Miranda, un amante de la programación, manejo en el backend Java con el framework Spring Boot y en frontend: HTML, CSS..."
+        />
+        <meta name="subject" content="Portafolio" />
+        <meta name="rating" content="General" />
+        <!-- AUTOR------------------------------------>
+        <link rel="author" href="https://comidev.github.io/portafolio/" />
+        <link
+            rel="me"
+            href="https://comidev.github.io/portafolio/"
+            type="text/html"
+        />
+        <link rel="me" href="mailto:comidev.contacto@gmail.com" />
+        <link rel="me" href="https://api.whatsapp.com/send?phone=51960949984" />
+
+        <!-- FACEBOOK --------------------------------------------->
+        <!-- Básico -->
+        <meta property="og:title" content="Portafolio - comidev" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/assets/images/imgShare.jpg" />
+        <meta property="og:image:alt" content="comidev" />
+        <meta
+            property="og:url"
+            content="https://comidev.github.io/portafolio/portfolio.html"
+        />
+        <!-- Opcional -->
+        <meta
+            property="og:description"
+            content="Bienvenidos. Soy Omar Miranda, un amante de la programación, manejo en el backend Java con el framework Spring Boot y en frontend: HTML, CSS..."
+        />
+        <meta property="og:locale" content="es_PE" />
+        <meta property="og:site_name" content="comidev" />
+        <meta
+            property="article:author"
+            content="https://www.linkedin.com/in/comidev/"
+        />
+        <!-- TWITTER ------------------------------------------------------ -->
+        <meta name="twitter:card" content="summary" />
+        <meta
+            name="twitter:url"
+            content="https://comidev.github.io/portafolio/portfolio.html"
+        />
+        <meta name="twitter:title" content="Portafolio - comidev" />
+        <meta
+            name="twitter:description"
+            content="Bienvenidos. Soy Omar Miranda, un amante de la programación, manejo en el backend Java con el framework Spring Boot y en frontend: HTML, CSS..."
+        />
+        <meta name="twitter:image" content="/assets/images/imgShare.jpg" />
+        <meta name="twitter:image:alt" content="comidev" />
+        <!-- FAVICON -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="assets/favicon//apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="assets/favicon//apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="assets/favicon//apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="assets/favicon//apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="assets/favicon//apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="assets/favicon//apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="assets/favicon//apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon//apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="assets/favicon//android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/favicon//favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="assets/favicon//favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/favicon//favicon-16x16.png"
+        />
+        <link rel="manifest" href="assets/favicon//manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- ICONOS -->
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+        />
+        <!-- FUENTE -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- ESTILOS -->
+        <!-- Estilo global -->
+        <link rel="stylesheet" href="css/normalize/normalize.css" />
+        <link rel="stylesheet" href="css/styles/style.css" />
+        <link rel="stylesheet" href="css/styles/navbar.css" />
+        <link rel="stylesheet" href="css/styles/footer.css" />
+        <!-- Estilo de la página -->
+        <link rel="stylesheet" href="css/index.css" />
+        <!-- JAVASCRIPT -->
+        <!-- Datos -->
+        <script defer src="js/data/portfolio.js"></script>
+        <!-- Componentes -->
+        <script defer src="js/components/Portfolio.js"></script>
+        <!-- Renderizado de la página per se -->
+        <script defer src="js/scripts/navbar.js"></script>
+        <script defer src="js/scripts/portfolio.js"></script>
+    </head>
+    <body class="dark-theme">
+        <header class="nav">
+            <nav class="nav__container u-center">
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.png" alt="Logo" />
+                </a>
+                <ul class="nav__menu">
+                    <li>
+                        <a href="index.html">
+                            <div class="icon__container">
+                                <i class="icon uil uil-home"></i>
+                                <p>Inicio</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            <div class="icon__container">
+                                <i class="icon uil uil-user"></i>
+                                <p>Acerca de</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <div class="icon__container active">
+                                <i class="icon uil uil-bag-alt"></i>
+                                <p>Portafolio</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            <div class="icon__container">
+                                <i class="icon uil uil-user-circle"></i>
+                                <p>Contacto</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="toggle_menu">
+                    <i class="uil uil-bars"></i>
+                    <!--<i class="uil uil-multiply"></i>-->
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section id="Portafolio" class="section portafolio">
+                <section class="u-center">
+                    <h1>Mis proyectos</h1>
+                    <section id="proyectos" class="portafolio__body">
+                        <article class="card">
+                            <div class="card__imagen">
+                                <img
+                                    src="assets/images/proyectos/proyecto01.webp"
+                                    alt="Imagen de Proyecto"
+                                />
+                            </div>
+                            <h4 class="card__title">Mi primer portafolio</h4>
+                            <p class="text card__text">
+                                Lo construí usando HTML, CSS y JavaScript simple, no
+                                usé React porque no hay interacción con el usuario.
+                                En mis próximos proyectos usaré React :D
+                            </p>
+                            <div class="buttons buttons-card">
+                                <a href="" target="_blank" class="btn">Code</a>
+                                <a href="" target="_blank" class="btn btn-primary"
+                                    >Demo</a
+                                >
+                            </div>
+                        </article>
+                        <!-- JAVASCRIPT -->
+                    </section>
+
+                    <a href="contact.html" class="btn btn-primary btn-more"
+                        >Contactar</a
+                    >
+
+                    <h1>Mis experiencias</h1>
+                    <section id="experiencia" class="portafolio__body">
+                        <article class="card">
+                            <div class="card__imagen">
+                                <img
+                                    src="assets/images/experiencia/web/busqueda.webp"
+                                    alt="Imagen de Proyecto"
+                                />
+                            </div>
+                            <h4 class="card__title">Mi primer portafolio</h4>
+                            <p class="text card__text">
+                                Lo construí usando HTML, CSS y JavaScript simple, no
+                                usé React porque no hay interacción con el usuario.
+                                En mis próximos proyectos usaré React :D
+                            </p>
+                        </article>
+                        <!-- JAVA SCRIPT DATA -->
+                    </section>
+
+                    <a href="contact.html" class="btn btn-primary btn-more"
+                        >Contactar</a
+                    >
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <section class="u-center">
+                <section class="footer__body">
+                    <section>
+                        <h2>Secciones</h2>
+                        <ul class="footer__list">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="about.html">Acerca de</a></li>
+                            <li><a href="portfolio.html">Portafolio</a></li>
+                            <li><a href="contact.html">Contacto</a></li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2>Contacto</h2>
+                        <div>
+                            <ul class="footer__rrss">
+                                <li class="mail">
+                                    <a
+                                        href="mailto:comidev.contacto@gmail.com"
+                                        target="_blank"
+                                    >
+                                        <p>comidev.contacto@gmail.com</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=+51960949984"
+                                        target="_blank"
+                                        ><i class="uil uil-whatsapp icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://github.com/comidev"
+                                        target="_blank"
+                                        ><i class="uil uil-github icon"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://www.linkedin.com/in/comidev/"
+                                        target="_blank"
+                                        ><i class="uil uil-linkedin icon"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="footer__footer">
+                    &copy; Página diseñada y construida por Omar Miranda
+                </section>
+            </section>
+        </footer>
+    </body>
+</html>

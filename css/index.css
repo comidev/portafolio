@@ -1,0 +1,190 @@
+/* ============= PERFIL ============= */
+.perfil__body {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buttons {
+    display: grid;
+    max-width: max-content;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.perfil__imagen {
+    width: 90%;
+    max-width: 22rem;
+    height: min-content;
+
+    margin: auto;
+
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+}
+
+.perfil__imagen img {
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    transition: transform ease 0.3s;
+    aspect-ratio: 3 / 4;
+}
+
+.perfil__imagen img:hover {
+    transform: rotate(0);
+}
+
+@media screen and (max-width: 800px) {
+    .perfil__body {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .buttons {
+        gap: 0.5rem;
+    }
+
+    .btn {
+        padding: 0.8rem 0.8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .buttons {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 279px) {
+    .perfil__info {
+        word-break: break-all;
+    }
+}
+
+/* ============= CONOCIMIENTOS ============= */
+.conocimiento__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.techs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    margin: 0 auto;
+    gap: 0.6rem;
+}
+
+.card-tech {
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 7rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.card-tech__imagen img {
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 1;
+}
+
+.card-tech__title {
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 991px) {
+    .conocimiento__body {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+/* ============= PORTAFOLIO ============= */
+.portafolio__body {
+    display: grid;
+    /* 285, 236 */
+    grid-template-columns: repeat(auto-fit, minmax(261px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    position: relative;
+    padding-bottom: 5rem;
+    max-width: 24rem;
+    margin: 0 auto;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.3);
+    background-color: var(--color-black3);
+}
+
+.card__info {
+    border-top: 2px solid var(--color-white);
+    margin: 1rem;
+}
+
+.card__imagen img {
+    aspect-ratio: 1;
+}
+
+.card__title {
+    text-align: start;
+    margin: 1rem 0;
+    color: var(--color-white);
+}
+
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--color-gold);
+}
+
+.tool {
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.card__text {
+    color: var(--color-text2);
+}
+
+.buttons-card {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto 2rem;
+}
+
+.btn-more {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+@media screen and (max-width: 551px) {
+    .portafolio__body {
+        grid-template-columns: 1fr;
+    }
+    .buttons-card {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .card {
+        padding-bottom: 9rem;
+    }
+}

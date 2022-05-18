@@ -7,21 +7,31 @@ const frontend = [
     {
         urlImagen: "./assets/images/conocimiento/css.png",
         titulo: "CSS",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/javascript.png",
         titulo: "JavaScript",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/react.png",
         titulo: "React",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/styledComponent.png",
         titulo: "Styled Component",
+        nivel: "Intermedio",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/redux.png",
+        titulo: "Redux",
+        nivel: "Básico",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/nextjs.png",
+        titulo: "NextJS",
         nivel: "Básico",
     },
 ];

@@ -7,7 +7,7 @@
 
 .contact__left {
     position: relative;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     height: 20rem;
     border-radius: 2rem;
     max-width: max-content;
@@ -23,21 +23,29 @@
     margin: 0 auto;
     max-width: max-content;
 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--color-black2);
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 
 .contact__links li {
     max-width: max-content;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0rem;
 }
 
 .contact__links li a {
     display: flex;
+    padding: 0.5rem 0.8rem;
     align-items: center;
     color: var(--color-white);
+}
+
+.contact__links li a:hover {
+    border-radius: 9999px;
+    background-color: #5577ff33;
+    background-size: 20rem 20rem;
+    background-position: center;
 }
 
 .mail {
@@ -53,7 +61,7 @@
 
     border-radius: 2rem;
     background: var(--color-white);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     padding: 2rem;
 }
 

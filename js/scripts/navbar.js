@@ -17,10 +17,10 @@ btnToggle.addEventListener("click", () => {
 });
 
 window.addEventListener("scroll", (e) => {
-    const changueColor = window.scrollY >= 80;
+    const changueColor = window.scrollY >= 64;
     if (changueColor) {
-        navBar.style.backgroundColor = "var(--color-white)";
-        navBar.style.boxShadow = "0px 1px 1px 1px rgba(0, 0, 0, 0.05)";
+        navBar.style.backgroundColor = "var(--bg-color1)";
+        navBar.style.boxShadow = "var(--box-bottom)";
     } else {
         navBar.style.backgroundColor = "transparent";
         navBar.style.boxShadow = "0px 1px 1px 1px transparent";

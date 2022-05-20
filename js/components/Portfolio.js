@@ -15,12 +15,12 @@ const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
                     <a
                     href="${urlCode}"
                     target="_blank"
-                    class="btn btn-gold"
+                    class="btn btn-gold btn_white"
                     >Code</a>
                     <a
                     href="${urlDemo}"
                     target="_blank"
-                    class="btn btn-primary"
+                    class="btn btn-primary btn_white"
                     >Demo</a>
                 </div>
             </div>
@@ -53,7 +53,6 @@ const Proyectos = (isHome) => {
         )
         .join("");
 };
-
 
 const Experiencias = (isHome) => {
     const list = isHome ? experiencias.slice(0, SIZE_HOME) : experiencias;

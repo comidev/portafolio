@@ -8,6 +8,7 @@
 .contact__left {
     position: relative;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: var(--border);
     height: 20rem;
     border-radius: 2rem;
     max-width: max-content;
@@ -24,7 +25,9 @@
     max-width: max-content;
 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    background-color: var(--color-black2);
+    border: var(--border);
+
+    background-color: var(--color1);
     border-radius: 2rem;
     padding: 0.5rem;
 }
@@ -38,12 +41,12 @@
     display: flex;
     padding: 0.5rem 0.8rem;
     align-items: center;
-    color: var(--color-white);
+    color: var(--color2);
 }
 
 .contact__links li a:hover {
     border-radius: 9999px;
-    background-color: #5577ff33;
+    background-color: var(--color-primary-bg2);
     background-size: 20rem 20rem;
     background-position: center;
 }
@@ -60,8 +63,9 @@
     gap: 0;
 
     border-radius: 2rem;
-    background: var(--color-white);
+    background: var(--bg-color1);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border: var(--border);
     padding: 2rem;
 }
 
@@ -75,10 +79,9 @@
 }
 
 .form__input {
-    background-color: var(--color-white);
-    border: 2px solid transparent;
-    border-bottom: 2px solid var(--color-primary);
-    color: var(--color-2);
+    background-color: var(--bg-color1);
+    border: 1px solid var(--color-text-gris);
+    color: var(--color1);
 
     outline: 0;
     z-index: 2;
@@ -86,11 +89,11 @@
     width: 100%;
     padding: 0.8rem 1rem;
     margin: 0.5rem 0 0;
+    resize: none;
 }
 
 .form__input:hover {
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    color: var(--color-2);
+    border-color: var(--color-primary);
 }
 
 /* ==== VERIFICACIÓN ====== */

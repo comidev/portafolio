@@ -162,7 +162,11 @@
         <script defer src="js/scripts/navbar.js"></script>
         <script defer src="js/scripts/about.js"></script>
     </head>
-    <body class="dark-them">
+    <body>
+        <script>
+            const tema = window.localStorage.getItem("tema");
+            (tema && tema === "light") || document.body.classList.add("dark-theme");
+        </script>
         <header class="nav">
             <nav class="nav__container u-center">
                 <a href="index.html" class="logo">
@@ -289,6 +293,9 @@
                         </a>
                     </li>
                 </ul>
+                <button id="theme" class="toggle-theme">
+                    <i class="theme-icon uil uil-moon"></i>
+                </button>
                 <div class="toggle_menu">
                     <i class="uil uil-bars"></i>
                     <!--<i class="uil uil-multiply"></i>-->
@@ -299,11 +306,13 @@
         <main class="main">
             <section id="Perfil" class="about section">
                 <section class="u-center">
-                    <h1 class="end">¡Hola, Soy Omar Miranda!</h1>
-                    <h3 class="end">Full Stack Java Developer Junior</h3>
+                    <h1 class="end about__title-react">¡Hola, Soy Omar Miranda!</h1>
+                    <h3 class="end about__title">
+                        Full Stack Java & React Developer Junior
+                    </h3>
                     <div class="about__body">
                         <div>
-                            <div class="perfil__imagen">
+                            <div class="about__imagen">
                                 <img
                                     src="assets/images/about/webp/perfil-home.webp"
                                     alt="Foto Home"
@@ -348,9 +357,9 @@
 
             <section id="Educacion" class="educacion section">
                 <section class="u-center">
-                    <h1>Educación</h1>
+                    <h1 class="about__title">Educación</h1>
                     <article class="educacion__body">
-                        <h2 class="subtitle">
+                        <h2 class="educacion__title">
                             Universidad Nacional Mayor de San Marcos (UNMSM)
                         </h2>
                         <div class="educacion__info">
@@ -382,7 +391,7 @@
                         </div>
                     </article>
                     <article class="educacion__body">
-                        <h2 class="subtitle educacion__title">
+                        <h2 class="educacion__title">
                             Cursos Online - Udemy | Youtube | Documentaciones
                         </h2>
                         <div class="educacion__info">
@@ -417,7 +426,7 @@
 
             <section id="Conocimiento" class="conocimiento section">
                 <section class="u-center">
-                    <h1>Mi Conocimiento</h1>
+                    <h1>Conocimiento</h1>
                     <section class="conocimiento__body">
                         <div>
                             <h3 class="subtitle">Frontend</h3>
@@ -458,7 +467,7 @@
 
             <section id="Hobby" class="hobby section">
                 <section class="u-center hobby__container">
-                    <h1 class="title">Hobby</h1>
+                    <h1 class="about__title-react">Hobby</h1>
 
                     <article class="hobby__item">
                         <h2 class="subtitle">Gym (Casa)</h2>

@@ -160,7 +160,11 @@
         <script defer src="js/scripts/navbar.js"></script>
         <script defer src="js/scripts/portfolio.js"></script>
     </head>
-    <body class="dark-them">
+    <body>
+        <script>
+            const tema = window.localStorage.getItem("tema");
+            (tema && tema === "light") || document.body.classList.add("dark-theme");
+        </script>
         <header class="nav">
             <nav class="nav__container u-center">
                 <a href="index.html" class="logo">
@@ -287,6 +291,9 @@
                         </a>
                     </li>
                 </ul>
+                <button id="theme" class="toggle-theme">
+                    <i class="theme-icon uil uil-moon"></i>
+                </button>
                 <div class="toggle_menu">
                     <i class="uil uil-bars"></i>
                     <!--<i class="uil uil-multiply"></i>-->
@@ -297,12 +304,12 @@
         <main class="main">
             <section id="Portafolio" class="section portafolio">
                 <section class="u-center">
-                    <h1>Mis proyectos</h1>
+                    <h1 class="portafolio__title">Mis proyectos</h1>
                     <section id="proyectos" class="portafolio__body">
                         <article class="card">
                             <div class="card__imagen">
                                 <img
-                                    src="assets/images/proyectos/proyecto01.webp"
+                                    src="assets/images/proyectos/vidaplena.webp"
                                     alt="Imagen de Proyecto"
                                 />
                             </div>
@@ -324,7 +331,7 @@
 
                     <a href="contact.html" class="btn btn-more">Contactar</a>
 
-                    <h1>Mis experiencias</h1>
+                    <h1 class="portafolio__title">Mis experiencias</h1>
                     <section id="experiencia" class="portafolio__body">
                         <article class="card">
                             <div class="card__imagen">

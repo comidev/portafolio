@@ -99,7 +99,11 @@
         <script defer src="js/scripts/navbar.js"></script>
         <script defer src="js/scripts/contact.js"></script>
     </head>
-    <body class="dark-them">
+   <body>
+         <script>
+            const tema = window.localStorage.getItem("tema");
+            tema && tema === "light" || document.body.classList.add("dark-theme");
+        </script>
         <header class="nav">
             <nav class="nav__container u-center">
                 <a href="index.html" class="logo">
@@ -198,8 +202,11 @@
                             <i class="icon uil uil-user-circle"></i>
                             Contacto
                         </a>
-                    </li>
+                   </li>
                 </ul>
+                <button id="theme" class="toggle-theme">
+                    <i class="theme-icon uil uil-moon"></i>
+                </button>
                 <div class="toggle_menu">
                     <i class="uil uil-bars"></i>
                     <!--<i class="uil uil-multiply"></i>-->
@@ -211,8 +218,8 @@
             <section class="contact section">
                 <section class="u-center contact__container">
                     <section class="contact__left">
-                        <h1>Contacto</h1>
-                        <h4>Me puede enviar un mensaje por los siguientes enlaces:</h4>
+                        <h1 class="contact__title">Contacto</h1>
+                        <h4 class="contact__description">Me puede enviar un mensaje por los siguientes enlaces:</h4>
                         <ul class="contact__links">
                             <li>
                                 <a

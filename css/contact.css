@@ -16,6 +16,17 @@
     padding: 2rem;
 }
 
+.contact__title {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #5271ff, #61dafb);
+}
+
+.contact__description {
+    color: var(--color-text1);
+}
+
 .contact__links {
     position: absolute;
     right: 0;

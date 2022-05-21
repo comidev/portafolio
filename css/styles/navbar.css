@@ -14,7 +14,9 @@
 }
 
 .logo {
-    width: 9rem;
+    width: 100%;
+    max-width: 9rem;
+    height: 32.2px;
     transition: transform ease 0.3s;
 }
 
@@ -24,6 +26,7 @@
 
 .nav__menu {
     display: flex;
+    margin-right: 2.5rem;
 }
 
 .icon__container {
@@ -63,6 +66,42 @@
     font-size: 3rem;
 }
 
+/* CAMBIAR DE TEMA */
+
+.toggle-theme {
+    position: absolute;
+    right: 1rem;
+
+    padding: 0;
+    background-color: #57f;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 9999px;
+    width: 2.5rem;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.theme-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+}
+
+.light-color {
+    background-color: #000;
+    color: #fff;
+    padding-left: 1px;
+}
+
+/* ----------------------- */
+
 @media (hover: hover) {
     .logo:hover {
         transform: scale(110%);
@@ -89,6 +128,7 @@
         height: 18rem;
         flex-direction: column;
         overflow: hidden;
+        margin-right: 0;
 
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
         background-color: var(--bg-color2);
@@ -118,6 +158,10 @@
 
     .icon {
         font-size: 2rem;
+    }
+
+    .toggle-theme {
+        left: 0.5rem;
     }
 }
 

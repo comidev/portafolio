@@ -156,8 +156,11 @@
         <script defer src="js/scripts/navbar.js"></script>
         <script defer src="js/scripts/index.js"></script>
     </head>
-
-    <body class="dark-them">
+    <body>
+         <script>
+            const tema = window.localStorage.getItem("tema");
+            tema && tema === "light" || document.body.classList.add("dark-theme");
+        </script>
         <header class="nav">
             <nav class="nav__container u-center">
                 <a href="index.html" class="logo">
@@ -258,6 +261,9 @@
                         </a>
                     </li>
                 </ul>
+                <button id="theme" class="toggle-theme">
+                    <i class="theme-icon uil uil-moon"></i>
+                </button>
                 <div class="toggle_menu">
                     <i class="uil uil-bars"></i>
                     <!--<i class="uil uil-multiply"></i>-->
@@ -270,18 +276,31 @@
                 <section class="perfil__body u-center">
 
                     <section class="perfil__info">
-                        <h1 class="center title_home">
-                            <span style='--content: "¡Hola! Soy"; --start-color: #6db33f;--end-color: #00dfd8; --delay: 0s;'>¡Hola! Soy</span>
-                            <span style='--content: "Omar Miranda"; --start-color: #5577ff;--end-color: #ff0080; --delay: 2.25s;'>Omar Miranda</span>
-                            <span style='--content: "FullStack"; --start-color: #ff4d4d;--end-color: #f9cb28; --delay: 4.5s;'>FullStack</span>
-                            <span style='--content: "Java & React"; --start-color: #0099ff;--end-color: #61dafb; --delay: 6.75s;'>Java & React</span>
+                        <h1 class="title_home">
+                            <span style='--content: "¡Hola! Soy"; --start-color: #6db33f;--end-color: #00dfd8; --delay: 0s;'>
+                                <span>
+                                    ¡Hola! Soy
+                                </span>
+                            </span>
+                            <span style='--content: "Omar Miranda"; --start-color: #5271ff;--end-color: #ff0080; --delay: 2.25s;'>
+                                <span>
+                                    Omar Miranda
+                                </span>
+                            </span>
+                            <span style='--content: "FullStack"; --start-color: #ff4d4d;--end-color: #efb810; --delay: 4.5s;'>
+                                <span>
+                                    FullStack
+                                </span>
+                            </span>
+                            <span style='--content: "Java & React"; --start-color: #0099ff;--end-color: #61dafb; --delay: 6.75s;'>
+                                <span>
+                                    Java & React
+                                </span>
+                            </span>
                         </h1>
                         <h4 class="start">Developer Junior</h4>
                         <p class="text">
-                            Un apasionado por la programación, trabajo en el backend Java
-                            con el framework Spring Boot y en frontend: HTML, CSS,
-                            JavaScript y React. Estoy en busca de mi primer empleo (remoto)
-                             como desarrollador, aspiro a ser un gran programador en estas áreas.
+                            En busca de mi primera oportunidad (remota) para aplicar mis conocimientos (Spring Boot & React) como desarrollador. Aspiro a ser un gran programador en estas áreas.
                         </p>
                         <div class="buttons">
                             <a
@@ -308,7 +327,7 @@
 
             <section id="Conocimiento" class="conocimiento section">
                 <section class="u-center">
-                    <h1 class="title">Mi Conocimiento</h1>
+                    <h1 class="title">Conocimiento</h1>
                     <section class="conocimiento__body">
                         <div>
                             <h3 class="subtitle">Frontend</h3>
@@ -349,12 +368,11 @@
 
             <section id="Portafolio" class="section portafolio">
                 <section class="u-center">
-                    <h1>Portafolio</h1>
-                    <h3>Mis últimos 4 proyectos</h3>
+                    <h1 class="portafolio__title">Mis últimos 4 proyectos</h1>
                     <section id="proyectos-3" class="portafolio__body">
                         <article class="card">
                             <img
-                                src="assets/images/proyectos/proyecto01.webp"
+                                src="assets/images/proyectos/vidaplena.webp"
                                 alt="Imagen de Proyecto"
                             />
                             <!-- <div class="card__info"> -->
@@ -386,7 +404,7 @@
                         >Más proyectos</a
                     >
 
-                    <h1>Experiencia</h1>
+                    <h1 class="portafolio__title">Experiencia</h1>
                     <section id="experiencia-3" class="portafolio__body">
                         <article class="card">
                             <div class="card__imagen">

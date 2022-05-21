@@ -17,17 +17,24 @@
     --color-primary: #5271ff;
     --color-primary-bg1: #5271ff11;
     --color-primary-bg2: #ffffff22;
+
     --color-azul: #09f;
     --color-gold: #efb810;
-    --color-error: #f24c00;
+    --color-celeste: #00fdf8;
+    --color-spring: #6db33f;
+    --color-react: #61dafb;
+    --color-rojo: #ff0080;
+    --color-naranja: #ff4f4f;
+
+    --color-error: #ff4f4f;
     --color-warning: #fc7a1e;
-    --color-success: #6ab547;
+    --color-success: #6db33f;
 
     --box-top-white: 0px -2px 1px -1px rgba(0, 0, 0, 0.05);
     --box-bottom-white: 0px 1px 1px 1px rgba(0, 0, 0, 0.05);
 
     --border-top: 2px solid rgba(255, 255, 255, 0.3);
-    --border: none;
+    --border: 1px solid transparent;
 
     --box-top-black: 0px -2px 1px -1px rgba(255, 255, 255, 0.05);
     --box-bottom-black: 0px 1px 1px 1px rgba(255, 255, 255, 0.05);
@@ -38,6 +45,22 @@
 
     --break-points-desktop: 1600px;
     --break-points-mobile: 991px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    background-color: var(--bg-color1);
+    color: var(--color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 
     --bg-color1: var(--color-white);
     --bg-color2: var(--color-black2);
@@ -60,25 +83,10 @@
     --color-text2: var(--color-text-black);
     --box-top: var(--box-top-black);
     --box-bottom: var(--box-bottom-black);
+
     --color-primary-bg1: #ffffff11;
     --color-primary-bg2: #5271ff11;
     --border: 1px solid #343434;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: "Inter", sans-serif;
-    overflow-x: hidden;
-    word-wrap: break-word;
-    background-color: var(--bg-color1);
-    color: var(--color);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    position: relative;
 }
 
 .main {
@@ -86,8 +94,6 @@ body {
 }
 
 main {
-    background-image: url(../../assets/images/bg.svg);
-    background-size: cover;
     padding-bottom: 18rem;
 }
 

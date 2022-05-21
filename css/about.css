@@ -1,12 +1,44 @@
 /* ============ PERFIL ============= */
+.about {
+    color: var(--color-primary);
+}
+.about__title {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #ff4d4d, #efb810);
+}
+
+.about__title-react {
+      background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(90deg, #5271ff, #61dafb);
+}
+
 .about__body {
     display: grid;
     grid-template-columns: 4fr 6fr;
     gap: 3rem;
 }
 
-.perfil__imagen img {
+.about__imagen {
+    width: 85%;
+    max-width: 22rem;
+    margin: auto;
+    background-color: var(--color-primary);
+    border-radius: 2rem;
+}
+
+.about__imagen img {
+    border-radius: 2rem;
+    transform: rotate(10deg);
+    transition: transform ease 0.3s;
     aspect-ratio: 1;
+}
+
+.about__imagen img:hover {
+    transform: rotate(0);
 }
 
 .btn-about {
@@ -36,7 +68,6 @@
     margin-top: 3rem;
 
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    /* background-color: var(--bg-color1); */
     background-color: rgb(254, 197, 45);
     border: var(--border);
     color: var(--color-black);
@@ -55,7 +86,7 @@
 }
 
 .educacion__info-content {
-    color: var(--color-text-black);
+    color: var(--color-black2);
 }
 
 .educacion__temas {

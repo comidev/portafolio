@@ -22,7 +22,6 @@ const toggleTheme = (isThemeLight) => {
         btnToggleTheme.style.backgroundColor = "#57f";
         contentTheme.classList.remove("uil-sun");
         contentTheme.classList.add("uil-moon");
-        console.log("Modo dark");
         window.localStorage.setItem("tema", "dark");
 
         document.body.classList.add("dark-theme");
@@ -32,7 +31,6 @@ const toggleTheme = (isThemeLight) => {
         btnToggleTheme.style.backgroundColor = "#ccc";
         contentTheme.classList.remove("uil-moon");
         contentTheme.classList.add("uil-sun");
-        console.log("Modo light");
         window.localStorage.setItem("tema", "light");
 
         document.body.classList.remove("dark-theme");

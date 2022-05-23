@@ -1,11 +1,11 @@
 const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
     return `
         <article class="card">
-                <img
-                    src="${urlImagen}"
-                    alt="${title}"
-                />
-                <div class="card__info">
+            <img
+                src="${urlImagen}"
+                alt="${title}"
+            />
+            <div class="card__info">
                 <h4 class="card__title">${title}</h4>
                 <ul class="tools">
                     ${tools.map((item) => `<li class="tool">#${item}</li>`).join("")}
@@ -15,12 +15,12 @@ const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
                     <a
                     href="${urlCode}"
                     target="_blank"
-                    class="btn btn-gold btn_white"
+                    class="btn btn-gold"
                     >Code</a>
                     <a
                     href="${urlDemo}"
                     target="_blank"
-                    class="btn btn-primary btn_white"
+                    class="btn btn-primary"
                     >Demo</a>
                 </div>
             </div>

@@ -188,9 +188,9 @@ a {
 }
 
 .btn-gold {
-    background-color: transparent;
-    color: var(--color-gold);
-    border-color: var(--color-gold);
+    background-color: var(--color-spring);
+    color: var(--color-white);
+    border-color: var(--color-spring);
 }
 
 @media (hover: hover) {

@@ -10,10 +10,10 @@
 }
 
 .about__title-react {
-      background-clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(90deg, #5271ff, #61dafb);
+    background-image: linear-gradient(90deg, #61dafb, #5271ff);
 }
 
 .about__body {

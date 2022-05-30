@@ -1,10 +1,9 @@
 const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
     return `
         <article class="card">
-            <img
-                src="${urlImagen}"
-                alt="${title}"
-            />
+            <div class="card__img">
+                <img src="${urlImagen}" alt="${title}"/>
+            </div>
             <div class="card__info">
                 <h4 class="card__title">${title}</h4>
                 <ul class="tools">
@@ -31,10 +30,9 @@ const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
 const Experiencia = ({ title, urlImagen, info }) => {
     return `
        <article class="card">
-                <img
-                    src="${urlImagen}"
-                    alt="${title}"
-                />
+                <div class="card__img">
+                    <img src="${urlImagen}" alt="${title}"/>
+                </div>
                 <div class="card__info">
                 <h4 class="card__title">${title}</h4>
                 <p class="text card__text">${info}</p>

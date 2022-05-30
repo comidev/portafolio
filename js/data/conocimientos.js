@@ -29,11 +29,6 @@ const frontend = [
         titulo: "Redux",
         nivel: "Básico",
     },
-    {
-        urlImagen: "./assets/images/conocimiento/nextjs.png",
-        titulo: "NextJS",
-        nivel: "Básico",
-    },
 ];
 
 const backend = [

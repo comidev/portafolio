@@ -1,5 +1,21 @@
 const proyectos = [
     {
+        title: "API Rest Reserva de Vuelos",
+        urlImagen: "./assets/images/proyectos/reserva-vuelos.webp",
+        tools: ["SpringBoot", "SpringSecurity", "SpringData", "JWT", "APIRest"],
+        info: "Una API Rest de reserva de vuelos securizado con Spring Security y JWT como práctica backend.",
+        urlCode: "https://github.com/comidev/api-rest-viajes-vuelos",
+        urlDemo: "https://github.com/comidev/api-rest-viajes-vuelos",
+    },
+    {
+        title: "Vida Plena",
+        urlImagen: "./assets/images/proyectos/vidaplena.webp",
+        tools: ["React", "Emotion", "StyledComponents", "Helmet"],
+        info: "Un sitio web hecho para un familiar como práctica, entre sus características está los Slides, un carrito de compras, etc; lo realicé con React",
+        urlCode: "https://github.com/comidev/vidaplena",
+        urlDemo: "https://vidaplena.vercel.app/home",
+    },
+    {
         title: "Juego de Memoria (Front)",
         urlImagen: "./assets/images/proyectos/memory-game-front.webp",
         tools: ["React", "Emotion", "StyledComponents"],
@@ -62,14 +78,6 @@ const proyectos = [
         info: "Una API Rest para proveer a mi sitio Giffinity, hecho con Java Spring, protegido con JWT y securizado con Spring Security.",
         urlCode: "https://github.com/comidev/giffinity_api",
         urlDemo: "https://giffinity.vercel.app/home",
-    },
-    {
-        title: "Vida Plena",
-        urlImagen: "./assets/images/proyectos/vidaplena.webp",
-        tools: ["React", "Emotion", "StyledComponents", "Helmet"],
-        info: "Un sitio web hecho para un familiar como práctica, entre sus características está los Slides, un carrito de compras, etc., lo realicé con React",
-        urlCode: "https://github.com/comidev/vidaplena",
-        urlDemo: "https://vidaplena.vercel.app/home",
     },
     {
         title: "Portafolio",

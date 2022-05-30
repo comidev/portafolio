@@ -267,9 +267,14 @@
     padding-bottom: 3.8rem;
 }
 
-.card img {
+.card__img {
+    display: flex;
+    background-color: var(--color-primary);
+    align-items: center;
+    aspect-ratio: 1;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+    overflow: hidden;
 }
 
 .card__info {

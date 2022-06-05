@@ -1,5 +1,21 @@
 const proyectos = [
     {
+        title: "API Bsale Store",
+        urlImagen: "./assets/images/proyectos/bsalestore.webp",
+        tools: ["SpringBoot", "Java", "SpringData", "Heroku", "APIRest"],
+        info: "Una API Rest para el ejercicio de tienda web Bsale realizada con Spring Boot",
+        urlCode: "https://github.com/comidev/api-bsale-store",
+        urlDemo: "https://api-rest-bsale-store.herokuapp.com/",
+    },
+    {
+        title: "Bsale Store",
+        urlImagen: "./assets/images/proyectos/bsalestore.webp",
+        tools: ["JavaScript", "Vanilla", "ShoppingCart", "Vercel"],
+        info: "Una tienda web como ejercicio de prueba de Bsale, realizado con JavaScript Vanilla",
+        urlCode: "https://github.com/comidev/bsale-store",
+        urlDemo: "https://bsalestore.vercel.app/",
+    },
+    {
         title: "API Rest Reserva de Vuelos",
         urlImagen: "./assets/images/proyectos/reserva-vuelos.webp",
         tools: ["SpringBoot", "SpringSecurity", "SpringData", "JWT", "APIRest"],

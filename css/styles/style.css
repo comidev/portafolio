@@ -149,6 +149,11 @@ a {
     font-size: 17px;
 }
 
+.negrita {
+    color: var(--color1);
+    font-weight: 700;
+}
+
 .start {
     text-align: start;
 }

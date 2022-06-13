@@ -2,12 +2,12 @@ const backend = [
     {
         urlImagen: "./assets/images/conocimiento/java.png",
         titulo: "Java",
-        nivel: "Intermedio",
+        nivel: "Avanzado",
     },
     {
         urlImagen: "./assets/images/conocimiento/spring.png",
         titulo: "Spring Boot",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/mysql.png",
@@ -17,12 +17,12 @@ const backend = [
     {
         urlImagen: "./assets/images/conocimiento/postman.png",
         titulo: "Postman",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/springData.png",
         titulo: "Spring Data",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
         urlImagen: "./assets/images/conocimiento/springSecurity.png",
@@ -42,10 +42,10 @@ const backend = [
     {
         urlImagen: "./assets/images/conocimiento/postgresql.png",
         titulo: "Postgre SQL",
-        nivel: "Básico",
+        nivel: "Intermedio",
     },
     {
-        urlImagen: "./assets/images/conocimiento/springCloud.png",
+        urlImagen: "./assets/images/conocimiento/springCloud.svg",
         titulo: "Spring Cloud",
         nivel: "Básico",
     },

@@ -177,6 +177,7 @@
     max-width: 100%;
     width: max-content;
     grid-template-columns: repeat(auto-fit, minmax(6.8rem, 1fr));
+    justify-content: center;
     margin: 0 auto;
     gap: 1.5rem;
 }

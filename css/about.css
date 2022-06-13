@@ -111,11 +111,11 @@
 
 /* ============= HOBBY ============= */
 .hobby__container {
-    max-width: 40rem;
+    max-width: 34rem;
 }
 
 .hobby__item {
-    padding: 1rem 2rem;
+    padding: 0rem 1rem 2rem;
     border-radius: 2rem;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     background-color: var(--bg-color1);
@@ -123,15 +123,28 @@
 }
 
 .hobby__info {
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .hobby__imagen {
-    overflow: hidden;
+    margin: 0 auto;
+    max-width: 12rem;
     border-radius: 1rem;
+    background-color: var(--color-primary);
+}
+
+.hobby__imagen img {
+    border-radius: 1rem;
+    transform: rotate(10deg);
+    transition: transform 300ms ease;
+}
+
+.hobby__imagen img:hover {
+    transform: rotate(0);
 }
 
 @media screen and (max-width: 1024px) {

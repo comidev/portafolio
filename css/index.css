@@ -173,24 +173,20 @@
 }
 
 .techs {
-    display: grid;
-    max-width: 100%;
-    width: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(6.8rem, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
-    gap: 1.5rem;
 }
 
 .card-tech {
+    margin: 0.5rem;
     background-color: var(--bg-color1);
     border-radius: 1rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border: var(--border);
     text-align: center;
-    width: 6.8rem;
-    margin: 0 auto;
-    padding: 0.5rem;
+    width: 6.4rem;
+    padding: 0.3rem;
 }
 
 .card-tech__imagen img {
@@ -205,20 +201,8 @@
 }
 
 @media screen and (max-width: 551px) {
-    .techs{
-        gap: 0.5rem;
-    }
-
     .card-tech {
-        padding: 0.3rem;
-    }
-
-    .card-tech__title {
-        font-size: 15px;
-    }
-
-    .card-tech__subtitle {
-        font-size: 15px;
+        margin: 6.1px;
     }
 }
 

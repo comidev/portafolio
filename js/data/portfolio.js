@@ -6,29 +6,13 @@ const proyectos = [
         info: "Un proyecto de práctica con Spring Cloud, maneja 4 servicios con JWT y Roles",
         urlCode: "https://github.com/comidev/microservicio-spring-cloud",
     },
-    {
-        title: "API Bsale Store",
-        urlImagen: "./assets/images/proyectos/bsalestore.webp",
-        tools: ["SpringBoot", "Java", "SpringData", "Heroku", "APIRest"],
-        info: "Una API Rest para el ejercicio de tienda web Bsale realizada con Spring Boot",
-        urlCode: "https://github.com/comidev/api-bsale-store",
-        urlDemo: "https://api-rest-bsale-store.herokuapp.com/",
-    },
-    {
-        title: "Bsale Store",
-        urlImagen: "./assets/images/proyectos/bsalestore.webp",
-        tools: ["JavaScript", "Vanilla", "ShoppingCart", "Vercel"],
-        info: "Una tienda web como ejercicio de prueba de Bsale, realizado con JavaScript Vanilla",
-        urlCode: "https://github.com/comidev/bsale-store",
-        urlDemo: "https://bsalestore.vercel.app/",
-    },
+
     {
         title: "API Rest Reserva de Vuelos",
         urlImagen: "./assets/images/proyectos/reserva-vuelos.webp",
         tools: ["SpringBoot", "SpringSecurity", "SpringData", "JWT", "APIRest"],
         info: "Una API Rest de reserva de vuelos securizado con Spring Security y JWT como práctica backend.",
         urlCode: "https://github.com/comidev/api-rest-viajes-vuelos",
-        urlDemo: "https://github.com/comidev/api-rest-viajes-vuelos",
     },
     {
         title: "Vida Plena",
@@ -37,6 +21,22 @@ const proyectos = [
         info: "Un sitio web hecho para un familiar como práctica, entre sus características está los Slides, un carrito de compras, etc; lo realicé con React",
         urlCode: "https://github.com/comidev/vidaplena",
         urlDemo: "https://vidaplena.vercel.app/home",
+    },
+    {
+        title: "API Bsale Store",
+        urlImagen: "./assets/images/proyectos/bsalestore.webp",
+        tools: ["SpringBoot", "Java", "SpringData", "Heroku", "APIRest"],
+        info: "Una API Rest para el ejercicio de tienda web Bsale realizada con Spring Boot",
+        urlCode: "https://github.com/comidev/api-bsale-store",
+        urlDemo: "https://bsalestore.vercel.app/",
+    },
+    {
+        title: "Bsale Store",
+        urlImagen: "./assets/images/proyectos/bsalestore.webp",
+        tools: ["JavaScript", "Vanilla", "ShoppingCart", "Vercel"],
+        info: "Una tienda web como ejercicio de prueba de Bsale, realizado con JavaScript Vanilla",
+        urlCode: "https://github.com/comidev/bsale-store",
+        urlDemo: "https://bsalestore.vercel.app/",
     },
     {
         title: "Juego de Memoria (Front)",

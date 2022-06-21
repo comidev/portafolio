@@ -1,5 +1,12 @@
 const proyectos = [
     {
+        title: "Microservicios - Spring Cloud",
+        urlImagen: "./assets/images/proyectos/spring-cloud-comidev.webp",
+        tools: ["SpringCloud", "Gateway", "ConfigServer", "Hystrix", "APIRest"],
+        info: "Un proyecto de práctica con Spring Cloud, maneja 4 servicios con JWT y Roles",
+        urlCode: "https://github.com/comidev/microservicio-spring-cloud",
+    },
+    {
         title: "API Bsale Store",
         urlImagen: "./assets/images/proyectos/bsalestore.webp",
         tools: ["SpringBoot", "Java", "SpringData", "Heroku", "APIRest"],

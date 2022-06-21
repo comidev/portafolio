@@ -10,17 +10,23 @@ const Proyecto = ({ title, urlImagen, tools, info, urlCode, urlDemo }) => {
                     ${tools.map((item) => `<li class="tool">#${item}</li>`).join("")}
                 </ul>
                 <p class="text card__text">${info}</p>
-                <div class="buttons buttons-card">
+                <div class="buttons-card">
                     <a
                     href="${urlCode}"
                     target="_blank"
                     class="btn btn-gold"
                     >Code</a>
-                    <a
-                    href="${urlDemo}"
-                    target="_blank"
-                    class="btn btn-primary"
-                    >Demo</a>
+                    ${
+                        !urlDemo
+                            ? ""
+                            : `
+                        <a
+                        href="${urlDemo}"
+                        target="_blank"
+                        class="btn btn-primary"
+                        >Demo</a>`
+                    }
+
                 </div>
             </div>
         </article>

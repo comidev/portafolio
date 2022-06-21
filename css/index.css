@@ -265,13 +265,15 @@
 .tools {
     display: flex;
     flex-wrap: wrap;
-    color: var(--color-gold);
+    color: var(--color-spring);
     font-size: 14px;
+    font-weight: 800;
 }
 
 .tool {
-    margin-right: 0.6rem;
-    margin-bottom: 0.6rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.2rem;
+    text-decoration: underline;
 }
 
 .card__text {
@@ -285,6 +287,8 @@
     left: 0;
     right: 0;
     margin: 0 auto 16px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .btn-more {
@@ -296,14 +300,5 @@
 @media screen and (max-width: 551px) {
     .portafolio__body {
         grid-template-columns: 1fr;
-    }
-    .buttons-card {
-        flex-direction: row;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .card {
-        padding-bottom: 9rem;
     }
 }

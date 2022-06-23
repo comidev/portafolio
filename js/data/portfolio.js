@@ -1,5 +1,12 @@
 const proyectos = [
     {
+        title: "Microservicios - NodeJS",
+        urlImagen: "./assets/images/proyectos/microservicio-nodejs.png",
+        tools: ["NodeJS", "ExpressJS", "MongoDB", "Mongoose", "Jest"],
+        info: "Un proyecto de práctica con NodeJS para hacer microservicios. Aún en desarrollo 🛠",
+        urlCode: "https://github.com/comidev/microservicio-nodejs",
+    },
+    {
         title: "Microservicios - Spring Cloud",
         urlImagen: "./assets/images/proyectos/spring-cloud-comidev.webp",
         tools: ["SpringCloud", "Gateway", "ConfigServer", "Hystrix", "APIRest"],
@@ -7,13 +14,6 @@ const proyectos = [
         urlCode: "https://github.com/comidev/microservicio-spring-cloud",
     },
 
-    {
-        title: "API Rest Reserva de Vuelos",
-        urlImagen: "./assets/images/proyectos/reserva-vuelos.webp",
-        tools: ["SpringBoot", "SpringSecurity", "SpringData", "JWT", "APIRest"],
-        info: "Una API Rest de reserva de vuelos securizado con Spring Security y JWT como práctica backend.",
-        urlCode: "https://github.com/comidev/api-rest-viajes-vuelos",
-    },
     {
         title: "Vida Plena",
         urlImagen: "./assets/images/proyectos/vidaplena.webp",
@@ -37,6 +37,13 @@ const proyectos = [
         info: "Una tienda web como ejercicio de prueba de Bsale, realizado con JavaScript Vanilla",
         urlCode: "https://github.com/comidev/bsale-store",
         urlDemo: "https://bsalestore.vercel.app/",
+    },
+    {
+        title: "API Rest Reserva de Vuelos",
+        urlImagen: "./assets/images/proyectos/reserva-vuelos.webp",
+        tools: ["SpringBoot", "SpringSecurity", "SpringData", "JWT", "APIRest"],
+        info: "Una API Rest de reserva de vuelos securizado con Spring Security y JWT como práctica backend.",
+        urlCode: "https://github.com/comidev/api-rest-viajes-vuelos",
     },
     {
         title: "Juego de Memoria (Front)",

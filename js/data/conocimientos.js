@@ -49,6 +49,16 @@ const backend = [
         titulo: "Spring Cloud",
         nivel: "Básico",
     },
+    {
+        urlImagen: "./assets/images/conocimiento/nodejs.png",
+        titulo: "NodeJS",
+        nivel: "Intermedio",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/expressjs.png",
+        titulo: "ExpressJS",
+        nivel: "Básico",
+    },
 ];
 
 const frontend = [

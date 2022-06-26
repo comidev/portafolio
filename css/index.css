@@ -6,25 +6,35 @@
     display: flex;
 }
 
+.perfil__info {
+    width: 100%;
+}
+
 /* TITLE DINAMICOLOR */
 
 .title_home {
     margin-top: 0.4rem;
     letter-spacing: -0.06em;
-    font-size: 6rem;
+    font-size: calc(2.9vw + 2rem);
     text-align: start;
     width: 100%;
 }
 
+.skills {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: 0;
+}
+
 @media screen and (max-width: 1600px) {
     .title_home {
-        font-size: calc(2.9vw + 3rem);
+        font-size: calc(2.9vw + 2rem);
     }
 }
 
 @media screen and (max-width: 991px) {
     .title_home {
-        font-size: calc(3vw + 3vh + 2rem);
+        font-size: calc(2vw + 2vh + 2rem);
     }
 }
 
@@ -75,13 +85,13 @@
 
 @keyframes animated {
     0%,
-    11.25%,
+    16.667%,
     100% {
         opacity: 1;
     }
 
-    22.5%,
-    88.75% {
+    33.333%,
+    83.333% {
         opacity: 0;
     }
 }
@@ -98,7 +108,7 @@
 
 .perfil__imagen {
     width: 85%;
-    max-width: 22rem;
+    max-width: 250px;
 
     margin: auto 1rem auto 7.8rem;
     margin-top: 0;
@@ -185,8 +195,8 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     border: var(--border);
     text-align: center;
-    width: 6.4rem;
-    padding: 0.3rem;
+    width: 6.77rem;
+    padding: 0.48rem;
 }
 
 .card-tech__imagen img {
@@ -196,13 +206,22 @@
 }
 
 .card-tech__title {
-    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.2rem;
+    height: 3.5rem;
+}
+
+.card-tech__title p {
     font-weight: 600;
 }
 
 @media screen and (max-width: 551px) {
     .card-tech {
-        margin: 6.1px;
+        width: 6.2rem;
+        padding: 0.3rem 0.2rem;
+        margin: 4.92px;
     }
 }
 

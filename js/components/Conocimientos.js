@@ -1,4 +1,4 @@
-const Conocimiento = ({ urlImagen, titulo, nivel }) => {
+const Conocimiento = ({ urlImagen, titulo }) => {
     return `
         <article class="card-tech">
             <div class="card-tech__imagen">
@@ -7,16 +7,14 @@ const Conocimiento = ({ urlImagen, titulo, nivel }) => {
                     alt="${titulo}"
                 />
             </div>
-            <p class="card-tech__title">${titulo}</p>
-            <p class="text card-tech__subtitle">${nivel}</p>
+            <div class="card-tech__title">
+                <p class="">${titulo}</p>
+            </div>
         </article>
     `;
 };
 
-const Conocimientos = (listConocimiento) => {
-    return listConocimiento
-        .map(({ urlImagen, titulo, nivel }) =>
-            Conocimiento({ urlImagen, titulo, nivel })
-        )
+const Conocimientos = (listConocimiento) =>
+    listConocimiento
+        .map(({ urlImagen, titulo }) => Conocimiento({ urlImagen, titulo }))
         .join("");
-};

@@ -1,9 +1,17 @@
 const proyectos = [
     {
-        title: "Microservicios - NodeJS",
-        urlImagen: "./assets/images/proyectos/microservicio-nodejs.png",
+        title: "ComiStore",
+        urlImagen: "./assets/images/proyectos/comistore-front.webp",
+        tools: ["ReactJS", "StyledComponent", "Storage Firenase", "JavaScript"],
+        info: "Una aplicación web de ventas de productos con manejo de usuarios, jwt y roles.",
+        urlCode: "https://github.com/comidev/comistore",
+        urlDemo: "https://comistore.vercel.app/",
+    },
+    {
+        title: "API ComiStore - NodeJS",
+        urlImagen: "./assets/images/proyectos/comistore-back.webp",
         tools: ["NodeJS", "ExpressJS", "MongoDB", "Mongoose", "Jest"],
-        info: "Un proyecto de práctica con NodeJS para hacer microservicios. Aún en desarrollo 🛠",
+        info: "Un proyecto de práctica con NodeJS con Express y MongoDB, con más de 80 tests con Jest",
         urlCode: "https://github.com/comidev/microservicio-nodejs",
     },
     {
@@ -13,7 +21,6 @@ const proyectos = [
         info: "Un proyecto de práctica con Spring Cloud, maneja 4 servicios con JWT y Roles",
         urlCode: "https://github.com/comidev/microservicio-spring-cloud",
     },
-
     {
         title: "Vida Plena",
         urlImagen: "./assets/images/proyectos/vidaplena.webp",

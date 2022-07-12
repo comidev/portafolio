@@ -8,12 +8,13 @@ const proyectos = [
         urlDemo: "https://comistore.vercel.app/",
     },
     {
-        title: "API ComiStore - NodeJS",
-        urlImagen: "./assets/images/proyectos/comistore-back.webp",
-        tools: ["NodeJS", "ExpressJS", "MongoDB", "Mongoose", "Jest"],
-        info: "Un proyecto de práctica con NodeJS con Express y MongoDB, con más de 80 tests con Jest",
-        urlCode: "https://github.com/comidev/microservicio-nodejs",
+        title: "API ComiStore - TypeScript",
+        urlImagen: "./assets/images/proyectos/comistore-typescript.webp",
+        tools: ["TypeScript", "NodeJS", "ExpressJS", "MongoDB", "Docker", "Jest","TDD"],
+        info: "Un proyecto de práctica con TypeScript y NodeJS con Express y MongoDB, con más de 60 tests con Jest",
+        urlCode: "https://github.com/comidev/api-comistore",
     },
+
     {
         title: "Microservicios - Spring Cloud",
         urlImagen: "./assets/images/proyectos/spring-cloud-comidev.webp",
@@ -28,6 +29,13 @@ const proyectos = [
         info: "Un sitio web hecho para un familiar como práctica, entre sus características está los Slides, un carrito de compras, etc; lo realicé con React",
         urlCode: "https://github.com/comidev/vidaplena",
         urlDemo: "https://vidaplena.vercel.app/home",
+    },
+    {
+        title: "API ComiStore - NodeJS",
+        urlImagen: "./assets/images/proyectos/comistore-back.webp",
+        tools: ["NodeJS", "ExpressJS", "MongoDB", "Mongoose", "Jest"],
+        info: "Un proyecto de práctica con NodeJS con Express y MongoDB, con más de 80 tests con Jest",
+        urlCode: "https://github.com/comidev/microservicio-nodejs",
     },
     {
         title: "API Bsale Store",

@@ -197,6 +197,7 @@
     text-align: center;
     width: 6.77rem;
     padding: 0.48rem;
+    padding-bottom: 0.2rem;
 }
 
 .card-tech__imagen img {
@@ -210,7 +211,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 0.2rem;
-    height: 3.5rem;
+    height: 3rem;
 }
 
 .card-tech__title p {

@@ -47,6 +47,26 @@ const backend = [
         urlImagen: "./assets/images/conocimiento/expressjs.png",
         titulo: "ExpressJS",
     },
+    {
+        urlImagen: "./assets/images/conocimiento/junit5.webp",
+        titulo: "JUnit5",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/mockito.png",
+        titulo: "Mockito",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/jest.png",
+        titulo: "Jest",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/typescript.png",
+        titulo: "TypeScript",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/docker.png",
+        titulo: "Docker",
+    },
 ];
 
 const frontend = [

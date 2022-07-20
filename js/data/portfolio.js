@@ -1,5 +1,12 @@
 const proyectos = [
     {
+        title: "ComiStore - Spring Boot",
+        urlImagen: "./assets/images/proyectos/api-comistore.png",
+        tools: ["Spring Boot", "Swagger", "JWT", "Spring Security"],
+        info: "Una API Rest Monolítica hecha con Spring Boot. Más de 100 tests con Mockito y JUnit5. Documentado con Swagger",
+        urlCode: "https://github.com/comidev/api-comistore-spring-monolitico",
+    },
+    {
         title: "ComiStore",
         urlImagen: "./assets/images/proyectos/comistore-front.webp",
         tools: ["ReactJS", "StyledComponent", "Storage Firenase", "JavaScript"],
@@ -10,7 +17,15 @@ const proyectos = [
     {
         title: "API ComiStore - TypeScript",
         urlImagen: "./assets/images/proyectos/comistore-typescript.webp",
-        tools: ["TypeScript", "NodeJS", "ExpressJS", "MongoDB", "Docker", "Jest","TDD"],
+        tools: [
+            "TypeScript",
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "Docker",
+            "Jest",
+            "TDD",
+        ],
         info: "Un proyecto de práctica con TypeScript y NodeJS con Express y MongoDB, con más de 60 tests con Jest",
         urlCode: "https://github.com/comidev/api-comistore",
     },

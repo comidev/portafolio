@@ -68,7 +68,7 @@ const backend = [
         titulo: "Docker",
     },
     {
-        urlImagen: "./assets/images/conocimiento/sonarqube.png",
+        urlImagen: "./assets/images/conocimiento/SonarQube.png",
         titulo: "Sonarqube",
     },
     {

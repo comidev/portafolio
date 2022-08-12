@@ -1,5 +1,19 @@
 const proyectos = [
     {
+        title: "API Cerseu Fisi",
+        urlImagen: "./assets/images/proyectos/api-cerseu-fisi.png",
+        tools: [
+            "Spring Boot",
+            "Swagger",
+            "RabbitMQ",
+            "Docker",
+            "Sonarqube",
+            "Jacoco",
+        ],
+        info: "Una api rest monolito con Spring Boot de un sistema de matrícula. Covertura con Jacoco, calidad del código con Sonarqube, documentación con Swagger, manejo de colas con RabbitMQ, usando docker containers.",
+        urlCode: "https://github.com/comidev/api-cerseu-fisi",
+    },
+    {
         title: "ComiStore - Spring Boot",
         urlImagen: "./assets/images/proyectos/api-comistore.png",
         tools: ["Spring Boot", "Swagger", "JWT", "Spring Security"],

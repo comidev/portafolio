@@ -67,6 +67,14 @@ const backend = [
         urlImagen: "./assets/images/conocimiento/docker.png",
         titulo: "Docker",
     },
+    {
+        urlImagen: "./assets/images/conocimiento/sonarqube.png",
+        titulo: "Sonarqube",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/Swagger-logo.png",
+        titulo: "Swagger",
+    },
 ];
 
 const frontend = [
@@ -93,5 +101,32 @@ const frontend = [
     {
         urlImagen: "./assets/images/conocimiento/redux.png",
         titulo: "Redux",
+    },
+];
+
+const learning = [
+    {
+        urlImagen: "./assets/images/conocimiento/rabbitmq.jpg",
+        titulo: "RabbitMQ",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/kafka.jpg",
+        titulo: "Kafka",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/kubernetes.png",
+        titulo: "Kubernetes",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/redis.svg",
+        titulo: "Redis",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/cassandra.jpg",
+        titulo: "Cassandra",
+    },
+    {
+        urlImagen: "./assets/images/conocimiento/elastic-search.png",
+        titulo: "ElasticSearch",
     },
 ];

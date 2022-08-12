@@ -1,5 +1,7 @@
-const htmlFrontendAbout = document.getElementById("frontend");
-htmlFrontendAbout.innerHTML = Conocimientos(frontend);
+const htmlFrontendHome = document.getElementById("frontend");
+const htmlBackendHome = document.getElementById("backend");
+const htmlLearning = document.getElementById("learning");
 
-const htmlBackendAbout = document.getElementById("backend");
-htmlBackendAbout.innerHTML = Conocimientos(backend);
+htmlFrontendHome.innerHTML = Conocimientos(frontend);
+htmlBackendHome.innerHTML = Conocimientos(backend);
+htmlLearning.innerHTML = Conocimientos(learning);
